@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rvaldes/Projects/sqliteTest/sqliteTest/sqliteTest.csproj": {}
+  },
+  "projects": {
+    "/Users/rvaldes/Projects/sqliteTest/sqliteTest/sqliteTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rvaldes/Projects/sqliteTest/sqliteTest/sqliteTest.csproj",
+        "projectName": "sqliteTest",
+        "projectPath": "/Users/rvaldes/Projects/sqliteTest/sqliteTest/sqliteTest.csproj",
+        "packagesPath": "/Users/rvaldes/.nuget/packages/",
+        "outputPath": "/Users/rvaldes/Projects/sqliteTest/sqliteTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rvaldes/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "sqlite": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.100-preview3-014645/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
